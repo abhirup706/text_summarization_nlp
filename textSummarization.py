@@ -1,10 +1,3 @@
-# Databricks notebook source
-#Team Submission for 
-# Abhirup Bhattacharya - AXB200027
-# Manasi Barhanpurkar - MMB200012
-
-
-
 
 import boto3
 from io import StringIO
@@ -220,9 +213,9 @@ class TextSummarization:
 
 
 if __name__ == "__main__":
-    aws_acc = 'AKIA3SPI3QBVCVWFYEUU'
-    aws_sec = 'Gdq87w5bW9148JV/qoUHqY6z6BreaLvhl0kNNAix'
-    buck = 'textsummarizationbucket'
+    aws_acc = YOUR_AWS_ACCESS_KEY
+    aws_sec = YOUR_AWS_SECRET_KEY
+    buck = YOUR_AWS_BUCKET_NAME
     f_input = 'tennis_articles.csv'
     f_output = 'BigData_Summarization_NLP.txt'
     summ_perc = 0.2
